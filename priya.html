@@ -1,0 +1,22 @@
+
+<html>
+<head>
+ <title>DOM getElementsByClassName() Method</title>
+</head>
+<body bgcolor="pink">
+<p class="className" style="color: green;"><b>Good Morning</b></p>
+ <h1 id="elementId" style="color: blue;">
+ Web programming Lab
+ </h1>
+ <p name="attrName" style="color: yellow;"><b>Have a Nice 
+Day...!</b></p>
+<script>
+var temp = document.getElementsByClassName("className");
+var temp = document.getElementById("elementId");
+var temp = document.getElementsByName("attrName");
+console.log(temp[0]);
+console.log(temp[1]);
+console.log(temp[2]);
+</script>
+</body>
+</html>
